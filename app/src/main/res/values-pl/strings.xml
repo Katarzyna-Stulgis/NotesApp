@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="my_notes">Moje Notatki</string>
+    <string name="app_name">Notatnik</string>
+    <string name="note_subtitle">Podtytuł</string>
+    <string name="note_title">Tytuł</string>
+    <string name="type_note_here">Wpisz tutaj notatkę...</string>
+    <string name="note_added">Dodano</string>
+    <string name="note_updated">Zaktualizowano</string>
+    <string name="note_deleted">Usunięto</string>
+    <string name="empty_not_added">"Notatka nie została dodana, ponieważ są puste pola. "</string>
+    <string name="empty_not_updated">"Notatka nie została zaktualizowana, ponieważ są puste pola. "</string>
+    <string name="permission_denied">Odmowa dostępu</string>
+    <string name="permission_granted">Udzielono dostępu</string>
+    <string name="pdf_success">Plik PDF został wygenerowany</string>
+    <string name="title">Tytuł:</string>
+    <string name="subtitle">Podtytuł:</string>
+    <string name="date">"Data: "</string>
+    <string name="url">Url:</string>
+    <string name="options">Opcje</string>
+    <string name="pick_color">Wybierz kolor</string>
+    <string name="add_url">Dodaj URL</string>
+    <string name="enter_url">Wpisz URL</string>
+    <string name="add">DODAJ</string>
+    <string name="cancel_dialog">ANULUJ</string>
+    <string name="delete_note">Usuń notatkę</string>
+    <string name="are_you_sure_you_want_delete_this_note">"Czy na pewno chcesz usunąć tę notatkę? "</string>
+    <string name="save_as_pdf">Zapisz jako PDF</string>
+    <string name="enter_valid_url">"Wpisz prawidłowy adres URL  "</string>
+
+</resources>
