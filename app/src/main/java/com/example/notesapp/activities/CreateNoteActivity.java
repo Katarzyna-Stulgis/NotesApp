@@ -136,6 +136,7 @@ public class CreateNoteActivity extends AppCompatActivity {
         });
 
         selectedNoteColor = NOTE_COLOR_1;
+        setSubtitleIndicatorColor();
         initPickNote();
     }
 
