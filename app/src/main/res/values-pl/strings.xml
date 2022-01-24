@@ -27,5 +27,6 @@
     <string name="are_you_sure_you_want_delete_this_note">"Czy na pewno chcesz usunąć tę notatkę? "</string>
     <string name="save_as_pdf">Zapisz jako PDF</string>
     <string name="enter_valid_url">"Wpisz prawidłowy adres URL  "</string>
+    <string name="search_notes">"Szukaj notatek  "</string>
 
 </resources>
