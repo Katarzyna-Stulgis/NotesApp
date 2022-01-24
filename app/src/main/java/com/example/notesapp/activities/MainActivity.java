@@ -355,7 +355,10 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
             notes.remove(noteClickedPosition);
             adapter.notifyItemRemoved(noteClickedPosition);
 
-            Snackbar.make(findViewById(R.id.mainLayout), getString(R.string.note_deleted), Snackbar.LENGTH_LONG).show();
+            Snackbar.make(findViewById(R.id.mainLayout), getString(R.string.note_deleted),
+                    Snackbar.LENGTH_LONG)
+                    .setAnchorView(R.id.imageAddNoteMain)
+                    .show();
         } else {
             editNote.setTitle(data.getStringExtra(CreateNoteActivity.EXTRA_NOTE_TITLE));
             editNote.setSubtitle(data.getStringExtra(CreateNoteActivity.EXTRA_NOTE_SUBTITLE));
@@ -368,7 +371,10 @@ public class MainActivity extends AppCompatActivity implements NotesListener {
             notes.add(noteClickedPosition, noteList.get(noteClickedPosition));
             adapter.notifyItemChanged(noteClickedPosition);
 
-            Snackbar.make(findViewById(R.id.mainLayout), getString(R.string.note_updated), Snackbar.LENGTH_LONG).show();
+            Snackbar.make(findViewById(R.id.mainLayout), getString(R.string.note_updated),
+                    Snackbar.LENGTH_LONG)
+                    .setAnchorView(R.id.imageAddNoteMain)
+                    .show();
         }
     }
 }
